@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8472DD0A2292AE7000B1943E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472DD092292AE7000B1943E /* AppDelegate.swift */; };
+		8472DD0C2292AE7000B1943E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472DD0B2292AE7000B1943E /* ViewController.swift */; };
+		8472DD0F2292AE7000B1943E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8472DD0D2292AE7000B1943E /* Main.storyboard */; };
+		8472DD112292AE7100B1943E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8472DD102292AE7100B1943E /* Assets.xcassets */; };
+		8472DD142292AE7100B1943E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8472DD122292AE7100B1943E /* LaunchScreen.storyboard */; };
+		8472DD1F2292AE7100B1943E /* OnvaouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472DD1E2292AE7100B1943E /* OnvaouTests.swift */; };
+		8472DD2A2292AE7100B1943E /* OnvaouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472DD292292AE7100B1943E /* OnvaouUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8472DD1B2292AE7100B1943E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8472DCFE2292AE7000B1943E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8472DD052292AE7000B1943E;
+			remoteInfo = Onvaou;
+		};
+		8472DD262292AE7100B1943E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8472DCFE2292AE7000B1943E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8472DD052292AE7000B1943E;
+			remoteInfo = Onvaou;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8472DD062292AE7000B1943E /* Onvaou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onvaou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8472DD092292AE7000B1943E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8472DD0B2292AE7000B1943E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8472DD0E2292AE7000B1943E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8472DD102292AE7100B1943E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8472DD132292AE7100B1943E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8472DD152292AE7100B1943E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8472DD1A2292AE7100B1943E /* OnvaouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnvaouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8472DD1E2292AE7100B1943E /* OnvaouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnvaouTests.swift; sourceTree = "<group>"; };
+		8472DD202292AE7100B1943E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8472DD252292AE7100B1943E /* OnvaouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnvaouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8472DD292292AE7100B1943E /* OnvaouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnvaouUITests.swift; sourceTree = "<group>"; };
+		8472DD2B2292AE7100B1943E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8472DD032292AE7000B1943E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472DD172292AE7100B1943E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472DD222292AE7100B1943E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8472DCFD2292AE7000B1943E = {
+			isa = PBXGroup;
+			children = (
+				8472DD082292AE7000B1943E /* Onvaou */,
+				8472DD1D2292AE7100B1943E /* OnvaouTests */,
+				8472DD282292AE7100B1943E /* OnvaouUITests */,
+				8472DD072292AE7000B1943E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8472DD072292AE7000B1943E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8472DD062292AE7000B1943E /* Onvaou.app */,
+				8472DD1A2292AE7100B1943E /* OnvaouTests.xctest */,
+				8472DD252292AE7100B1943E /* OnvaouUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8472DD082292AE7000B1943E /* Onvaou */ = {
+			isa = PBXGroup;
+			children = (
+				8472DD092292AE7000B1943E /* AppDelegate.swift */,
+				8472DD0B2292AE7000B1943E /* ViewController.swift */,
+				8472DD0D2292AE7000B1943E /* Main.storyboard */,
+				8472DD102292AE7100B1943E /* Assets.xcassets */,
+				8472DD122292AE7100B1943E /* LaunchScreen.storyboard */,
+				8472DD152292AE7100B1943E /* Info.plist */,
+			);
+			path = Onvaou;
+			sourceTree = "<group>";
+		};
+		8472DD1D2292AE7100B1943E /* OnvaouTests */ = {
+			isa = PBXGroup;
+			children = (
+				8472DD1E2292AE7100B1943E /* OnvaouTests.swift */,
+				8472DD202292AE7100B1943E /* Info.plist */,
+			);
+			path = OnvaouTests;
+			sourceTree = "<group>";
+		};
+		8472DD282292AE7100B1943E /* OnvaouUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8472DD292292AE7100B1943E /* OnvaouUITests.swift */,
+				8472DD2B2292AE7100B1943E /* Info.plist */,
+			);
+			path = OnvaouUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8472DD052292AE7000B1943E /* Onvaou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8472DD2E2292AE7100B1943E /* Build configuration list for PBXNativeTarget "Onvaou" */;
+			buildPhases = (
+				8472DD022292AE7000B1943E /* Sources */,
+				8472DD032292AE7000B1943E /* Frameworks */,
+				8472DD042292AE7000B1943E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Onvaou;
+			productName = Onvaou;
+			productReference = 8472DD062292AE7000B1943E /* Onvaou.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8472DD192292AE7100B1943E /* OnvaouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8472DD312292AE7100B1943E /* Build configuration list for PBXNativeTarget "OnvaouTests" */;
+			buildPhases = (
+				8472DD162292AE7100B1943E /* Sources */,
+				8472DD172292AE7100B1943E /* Frameworks */,
+				8472DD182292AE7100B1943E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8472DD1C2292AE7100B1943E /* PBXTargetDependency */,
+			);
+			name = OnvaouTests;
+			productName = OnvaouTests;
+			productReference = 8472DD1A2292AE7100B1943E /* OnvaouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8472DD242292AE7100B1943E /* OnvaouUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8472DD342292AE7100B1943E /* Build configuration list for PBXNativeTarget "OnvaouUITests" */;
+			buildPhases = (
+				8472DD212292AE7100B1943E /* Sources */,
+				8472DD222292AE7100B1943E /* Frameworks */,
+				8472DD232292AE7100B1943E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8472DD272292AE7100B1943E /* PBXTargetDependency */,
+			);
+			name = OnvaouUITests;
+			productName = OnvaouUITests;
+			productReference = 8472DD252292AE7100B1943E /* OnvaouUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8472DCFE2292AE7000B1943E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8472DD052292AE7000B1943E = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					8472DD192292AE7100B1943E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 8472DD052292AE7000B1943E;
+					};
+					8472DD242292AE7100B1943E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 8472DD052292AE7000B1943E;
+					};
+				};
+			};
+			buildConfigurationList = 8472DD012292AE7000B1943E /* Build configuration list for PBXProject "Onvaou" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8472DCFD2292AE7000B1943E;
+			productRefGroup = 8472DD072292AE7000B1943E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8472DD052292AE7000B1943E /* Onvaou */,
+				8472DD192292AE7100B1943E /* OnvaouTests */,
+				8472DD242292AE7100B1943E /* OnvaouUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8472DD042292AE7000B1943E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8472DD142292AE7100B1943E /* LaunchScreen.storyboard in Resources */,
+				8472DD112292AE7100B1943E /* Assets.xcassets in Resources */,
+				8472DD0F2292AE7000B1943E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472DD182292AE7100B1943E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472DD232292AE7100B1943E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8472DD022292AE7000B1943E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8472DD0C2292AE7000B1943E /* ViewController.swift in Sources */,
+				8472DD0A2292AE7000B1943E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472DD162292AE7100B1943E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8472DD1F2292AE7100B1943E /* OnvaouTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472DD212292AE7100B1943E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8472DD2A2292AE7100B1943E /* OnvaouUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8472DD1C2292AE7100B1943E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8472DD052292AE7000B1943E /* Onvaou */;
+			targetProxy = 8472DD1B2292AE7100B1943E /* PBXContainerItemProxy */;
+		};
+		8472DD272292AE7100B1943E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8472DD052292AE7000B1943E /* Onvaou */;
+			targetProxy = 8472DD262292AE7100B1943E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8472DD0D2292AE7000B1943E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8472DD0E2292AE7000B1943E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8472DD122292AE7100B1943E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8472DD132292AE7100B1943E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8472DD2C2292AE7100B1943E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8472DD2D2292AE7100B1943E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8472DD2F2292AE7100B1943E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Onvaou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ingridbazin.ios.Onvaou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8472DD302292AE7100B1943E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Onvaou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ingridbazin.ios.Onvaou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8472DD322292AE7100B1943E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnvaouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ingridbazin.ios.OnvaouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Onvaou.app/Onvaou";
+			};
+			name = Debug;
+		};
+		8472DD332292AE7100B1943E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnvaouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ingridbazin.ios.OnvaouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Onvaou.app/Onvaou";
+			};
+			name = Release;
+		};
+		8472DD352292AE7100B1943E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnvaouUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ingridbazin.ios.OnvaouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Onvaou;
+			};
+			name = Debug;
+		};
+		8472DD362292AE7100B1943E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnvaouUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ingridbazin.ios.OnvaouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Onvaou;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8472DD012292AE7000B1943E /* Build configuration list for PBXProject "Onvaou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8472DD2C2292AE7100B1943E /* Debug */,
+				8472DD2D2292AE7100B1943E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8472DD2E2292AE7100B1943E /* Build configuration list for PBXNativeTarget "Onvaou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8472DD2F2292AE7100B1943E /* Debug */,
+				8472DD302292AE7100B1943E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8472DD312292AE7100B1943E /* Build configuration list for PBXNativeTarget "OnvaouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8472DD322292AE7100B1943E /* Debug */,
+				8472DD332292AE7100B1943E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8472DD342292AE7100B1943E /* Build configuration list for PBXNativeTarget "OnvaouUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8472DD352292AE7100B1943E /* Debug */,
+				8472DD362292AE7100B1943E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8472DCFE2292AE7000B1943E /* Project object */;
+}
