@@ -14,6 +14,8 @@
 		8472DD142292AE7100B1943E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8472DD122292AE7100B1943E /* LaunchScreen.storyboard */; };
 		8472DD1F2292AE7100B1943E /* OnvaouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472DD1E2292AE7100B1943E /* OnvaouTests.swift */; };
 		8472DD2A2292AE7100B1943E /* OnvaouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472DD292292AE7100B1943E /* OnvaouUITests.swift */; };
+		848444F222942875000D6C4D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848444F122942875000D6C4D /* SettingsViewController.swift */; };
+		848444F4229547E8000D6C4D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848444F3229547E8000D6C4D /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8472DD252292AE7100B1943E /* OnvaouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnvaouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8472DD292292AE7100B1943E /* OnvaouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnvaouUITests.swift; sourceTree = "<group>"; };
 		8472DD2B2292AE7100B1943E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848444F122942875000D6C4D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		848444F3229547E8000D6C4D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				8472DD102292AE7100B1943E /* Assets.xcassets */,
 				8472DD122292AE7100B1943E /* LaunchScreen.storyboard */,
 				8472DD152292AE7100B1943E /* Info.plist */,
+				848444F122942875000D6C4D /* SettingsViewController.swift */,
+				848444F3229547E8000D6C4D /* UserData.swift */,
 			);
 			path = Onvaou;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				8472DD0C2292AE7000B1943E /* ViewController.swift in Sources */,
 				8472DD0A2292AE7000B1943E /* AppDelegate.swift in Sources */,
+				848444F4229547E8000D6C4D /* UserData.swift in Sources */,
+				848444F222942875000D6C4D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
